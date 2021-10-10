@@ -1,0 +1,190 @@
+html {
+  font-size:100%;
+}
+body{
+  background: #ccc;
+}
+#sidenav{
+  width:5%;
+background: white;
+position: fixed;
+top:0;
+left:0;
+border:1px solid #ccc;
+height:620px;
+border-radius: 25px,0;
+}
+#nav{
+  position: fixed;
+  left:5%;
+  top:0;
+  width:95%;
+  background: white;
+border:1px solid #ccc;
+  height: 60px;
+
+}
+#sideul{
+  margin-top:40px;
+}
+a{
+  margin:10px;
+  padding:5px;
+  padding-top: 15px;
+margin-left: 0;
+  margin-top: 20px;
+font-weight: bold;
+font-size: 1rem;
+}
+i{
+  color:black;
+}
+
+#horul{
+  margin-right: 40px;
+}
+#horul li a{
+  margin-top:-3px !important;
+}
+#horul i{
+  color:green;
+}
+#container{
+  width:94%;
+  height: 100%;
+  position: relative;
+left:10%;
+margin-top: 100px;
+}
+.card{
+  margin-top:25px;
+  border-radius: 10px;
+  width:75%;
+}
+#logo{
+  height:60px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 1080px) {
+  html{
+    font-size:1.25rem;
+  }
+#sidenav{
+  width:12%;
+  height:1520px;
+}
+#nav{
+  left:12%;
+  height: 120px;
+}
+#container{
+  width:88%;
+  margin-top: 180px;
+  left:14%;
+}
+.card{
+   width:104% ; 
+  margin-left: 10px;
+  margin-top:40px;
+}
+}
+@media screen and (max-width: 840px) {
+  html{
+    font-size:1.05rem;
+  }
+  #sidenav{
+    width:13%;
+  }
+  #nav{
+    left:13%;
+    height: 100px;
+  }
+  #container{
+    width:87%;
+    margin-top:140px;
+    left:15%;
+  }
+  .card{
+    width:103%;
+    margin-left:3px;
+  }
+}
+
+@media screen and (max-width: 580px) 
+{
+  html{
+    font-size:1rem;
+  }
+  #sidenav{
+    width:14%;
+  }
+  #nav{
+    left:14%;
+    height: 60px;
+  }
+  #container{
+    width:86%;
+    margin-top: 100px;
+    left:20%;
+  }
+  .card{
+    width: 85%;
+  }
+}
+@media screen and (max-width: 320px) 
+{
+  html{
+    font-size:1rem;
+  }
+  #sidenav{
+    width:20%;
+  }
+  #nav{
+    left:20%;
+    height: 60px;
+  }
+  #horul a{
+    margin:2px;
+    padding:3px;
+  }
+  #container{
+    width:80%;
+    margin-top:100px;
+    left:30%;
+  }
+  .card{
+    width: 90% ;
+    margin-left: 4px;
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
